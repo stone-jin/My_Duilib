@@ -1,5 +1,4 @@
 #include "UIlib.h"
-#include "UISliderTabLayout.h"
 using namespace DuiLib;
 
 #ifdef _DEBUG

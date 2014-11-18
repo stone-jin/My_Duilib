@@ -105,5 +105,5 @@
 #include "Control/UIWebBrowser.h"
 //#include "Control/UIFlash.h"
 
-#include "CDuiMenu.h"
-
+#include "Own/CDuiMenu.h"
+#include "Own/UISliderTabLayout.h"
