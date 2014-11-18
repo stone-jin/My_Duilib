@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="360,720" mininfo="300,500" caption="0,0,0,36" boxsize="4,4,4,4">
+<VerticalLayout bkcolor="#FF00FF00">
+	<Label height="100"></Label>
+	<HorizontalLayout name="header1" height="40">
+		<Option name="header1_option1" text="test1" group="true" selected="true"></Option>
+		<Option name="header1_option2" text="test2" group="true"></Option>
+	</HorizontalLayout>
+	<CSliderTabLayoutUI name="silder1">
+		<HorizontalLayout name="option1" bkcolor="#FF00FF00">
+			<Label text="111" textcolor="#FFFF0000"></Label>
+			<Control></Control>
+		</HorizontalLayout>
+		<HorizontalLayout name="option2" bkcolor="#FFFF0000">
+			<Button bkcolor="#FF00FF00" width="40" height="20"></Button>
+			<Control></Control>
+		</HorizontalLayout>
+	</CSliderTabLayoutUI>
+</VerticalLayout>
+</Window>
